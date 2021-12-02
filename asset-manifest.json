@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/java-Pbl-frontEnd/static/css/main.289660a7.chunk.css",
+    "main.js": "/java-Pbl-frontEnd/static/js/main.b8640f86.chunk.js",
+    "main.js.map": "/java-Pbl-frontEnd/static/js/main.b8640f86.chunk.js.map",
+    "runtime-main.js": "/java-Pbl-frontEnd/static/js/runtime-main.788392da.js",
+    "runtime-main.js.map": "/java-Pbl-frontEnd/static/js/runtime-main.788392da.js.map",
+    "static/js/2.f15deb99.chunk.js": "/java-Pbl-frontEnd/static/js/2.f15deb99.chunk.js",
+    "static/js/2.f15deb99.chunk.js.map": "/java-Pbl-frontEnd/static/js/2.f15deb99.chunk.js.map",
+    "static/js/3.294c2d8a.chunk.js": "/java-Pbl-frontEnd/static/js/3.294c2d8a.chunk.js",
+    "static/js/3.294c2d8a.chunk.js.map": "/java-Pbl-frontEnd/static/js/3.294c2d8a.chunk.js.map",
+    "index.html": "/java-Pbl-frontEnd/index.html",
+    "static/css/main.289660a7.chunk.css.map": "/java-Pbl-frontEnd/static/css/main.289660a7.chunk.css.map",
+    "static/js/2.f15deb99.chunk.js.LICENSE.txt": "/java-Pbl-frontEnd/static/js/2.f15deb99.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/java-Pbl-frontEnd/static/media/mountian.1c349641.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.788392da.js",
+    "static/js/2.f15deb99.chunk.js",
+    "static/css/main.289660a7.chunk.css",
+    "static/js/main.b8640f86.chunk.js"
+  ]
+}
