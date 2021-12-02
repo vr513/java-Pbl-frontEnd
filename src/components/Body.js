@@ -47,7 +47,7 @@ export default class Body extends Component {
                                     />
                                 </div>
                                 <div className="text-center px-4">
-                                    <a href="#" className="hero-btn1 px-3 mx-2" onclick=" ">
+                                    <a href="/" className="hero-btn1 px-3 mx-2" onclick=" ">
                                         <b>Submit</b>
                                     </a>
                                 </div>

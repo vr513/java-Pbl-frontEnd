@@ -1,4 +1,5 @@
 import '../components/style.css'
+import { Link } from 'react-router-dom'
 
 import React, { Component } from 'react'
 
@@ -20,9 +21,8 @@ export default class Header extends Component {
                 >
                     <nav className="navbar navbar-expand-lg navbar-dark bg-light py-4 px-5 ">
                         <div className="container ">
-                            <a style={{ fontSize: 37 }} className="navbar-brand" href="/">
-                                ITW PBL
-                            </a>
+
+                            <Link to='/' style={{ fontSize: 37 }} className="navbar-brand" >ITW PBL</Link>
                             <button
                                 className="navbar-toggler"
                                 type="button"
@@ -45,19 +45,22 @@ export default class Header extends Component {
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="/">
+
+                                        <Link className="nav-link active" to='/'>
                                             Team
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="/Tut">
+
+                                        <Link className="nav-link active" to='/Tut'>
                                             Tutorial
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="/addTut">
-                                            Add
-                                        </a>
+
+                                        <Link className="nav-link active" to='/addTut'>
+                                            add
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
