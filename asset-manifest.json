@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/java-Pbl-frontEnd/static/css/main.bd76521e.chunk.css",
-    "main.js": "/java-Pbl-frontEnd/static/js/main.b8640f86.chunk.js",
-    "main.js.map": "/java-Pbl-frontEnd/static/js/main.b8640f86.chunk.js.map",
+    "main.js": "/java-Pbl-frontEnd/static/js/main.828d1143.chunk.js",
+    "main.js.map": "/java-Pbl-frontEnd/static/js/main.828d1143.chunk.js.map",
     "runtime-main.js": "/java-Pbl-frontEnd/static/js/runtime-main.788392da.js",
     "runtime-main.js.map": "/java-Pbl-frontEnd/static/js/runtime-main.788392da.js.map",
     "static/js/2.f15deb99.chunk.js": "/java-Pbl-frontEnd/static/js/2.f15deb99.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.788392da.js",
     "static/js/2.f15deb99.chunk.js",
     "static/css/main.bd76521e.chunk.css",
-    "static/js/main.b8640f86.chunk.js"
+    "static/js/main.828d1143.chunk.js"
   ]
 }
