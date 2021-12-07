@@ -44,7 +44,7 @@
     }
     .zoom {
          
-          overflow: hidden;
+          /* overflow: hidden; */
           /* margin: 0 auto; */
       }
          
@@ -103,7 +103,7 @@
       transition: 0.5s;
     }
   *{
-      overflow: hidden;
+      /* overflow: hidden; */
   }
     .button:hover span {
       padding-right: 25px;
@@ -299,7 +299,7 @@
       position: absolute;
       top: 35px;
       left: 0;
-      overflow: hidden;
+      /* overflow: hidden; */
     }
     .ml11 {
     font-weight: 700;

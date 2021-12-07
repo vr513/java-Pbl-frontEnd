@@ -12,6 +12,11 @@ export default class Header extends Component {
         this.state = {
 
         }
+        this.userLogout = this.userLogout.bind(this);
+    }
+    userLogout() {
+        localStorage.removeItem("token");
+        window.location = "/Login"
     }
     render() {
         return (
@@ -40,11 +45,6 @@ export default class Header extends Component {
                             >
                                 <ul className="navbar-nav ms-auto">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="/">
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li className="nav-item">
 
                                         <Link className="nav-link active" to='/'>
                                             Team
@@ -62,6 +62,23 @@ export default class Header extends Component {
                                             add
                                         </Link>
                                     </li>
+                                    {(localStorage.getItem('token') === (undefined || null)) ? (
+                                        <li className="nav-item">
+
+                                            <Link className="nav-link active" to='/Login'>
+                                                Login
+                                            </Link>
+                                        </li>
+                                    ) : ""}
+                                    {(localStorage.getItem('token') === (undefined || null)) ? ("") : (
+                                        <li className="nav-item" onClick={this.userLogout}>
+
+                                            <Link className="nav-link active" to='/'>
+                                                Logout
+                                            </Link>
+                                        </li>
+                                    )}
+
                                 </ul>
                             </div>
                         </div>
